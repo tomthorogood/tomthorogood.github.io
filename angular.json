@@ -100,7 +100,12 @@
           }
         },
         "deploy": {
-          "builder": "@jefiozie/ngx-aws-deploy:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://tomthorogood.github.io",
+            "name": "Tom Thorogood",
+            "email": "tom@tomthorogood.com"
+          }
         }
       }
     }
