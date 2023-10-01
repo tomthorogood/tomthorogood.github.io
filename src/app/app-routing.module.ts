@@ -5,6 +5,7 @@ import {ServicesComponent} from "./services/services.component";
 import {ContactComponent} from "./contact/contact.component";
 import {PublishedWorksComponent} from "./published-works/published-works.component";
 import {WritingSamplesComponent} from "./writing-samples/writing-samples.component";
+import { PartyComponent } from './party/party.component';
 
 export const routes = [
   {
@@ -27,6 +28,10 @@ export const routes = [
     "path": "published-works",
     "component": PublishedWorksComponent
   },
+  {
+    "path": "party",
+    "component": PartyComponent
+  }
 ];
 
 @NgModule({
