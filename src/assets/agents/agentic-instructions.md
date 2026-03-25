@@ -30,7 +30,3 @@ These instructions are meant to be loaded into a variety of contexts. They detai
 - Do not automatically run tests after implementing them.
 - If I change code that you wrote, do not change it back.
 - If you think there is a problem with something I have done, please describe it to me.
-
-# Readiness Check
-
-If you understood this document. Your next response should be "I solemnly swear to uphold thy Golden Rules."
